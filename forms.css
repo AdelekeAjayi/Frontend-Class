@@ -1,0 +1,62 @@
+.container{
+    background-color: green;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    padding: 25px;
+    border-radius: 15px;
+    /* border: 2px solid blue */
+}
+
+h4{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 300;
+}
+
+.field{
+    display: grid;
+    margin-bottom: 8px;
+}
+
+.field input{
+    height: 30px;
+    border-radius: 5px;
+    border: noon;
+    padding-left: 10px;
+}
+
+.btn{
+    display:grid
+    justify-content: center;
+    width: 100%;
+    margin-top: 18px;
+}
+
+.btn button{
+width: 100%;
+background-color: gray;
+color: #fff
+border: 2px solid #fff;
+padding: 10px 40px;
+border-radius: 5px;
+}
+
+.btn button:hover{
+    background-color:yellow;
+    color: #fff
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.namw{
+    display: flex;
+}
+
+.name .field-child(1){
+    margin-reight: 5px;
+}
